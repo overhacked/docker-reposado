@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:flask
+FROM tiangolo/uwsgi-nginx-flask:python2.7-alpine3.7
 
 # Set correct environment variables.
 ENV LOCALCATALOGURLBASE http://reposado
